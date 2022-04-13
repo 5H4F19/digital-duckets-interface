@@ -8,11 +8,12 @@ export function MenuInner() {
   const intl = useIntl()
   return (
     <>
-      <MenuItem title={intl.formatMessage({ id: 'MENU.DASHBOARD' })} to='/dashboard' />
+      <MenuItem title={intl.formatMessage({ id: 'MENU.DASHBOARD' })} to='/app' />
+      <MenuItem title='Trending' to='/trending' />
 
-      <MenuInnerWithSub title='Apps' to='/apps' menuPlacement='bottom-start' menuTrigger='click'>
-        {/* PAGES */}
-        <MenuInnerWithSub
+      {/* <MenuInnerWithSub title='Apps' to='/apps' menuPlacement='bottom-start' menuTrigger='click'> */}
+      {/* PAGES */}
+      {/* <MenuInnerWithSub
           title='Chat'
           to='/apps/chat'
           icon='/media/icons/duotune/communication/com012.svg'
@@ -29,9 +30,9 @@ export function MenuInner() {
           to='/apps/user-management/users'
           title='User management'
         />
-      </MenuInnerWithSub>
+      </MenuInnerWithSub> */}
 
-      <MenuInnerWithSub
+      {/* <MenuInnerWithSub
         isMega={true}
         title='Mega menu'
         to='/mega-menu'
@@ -39,7 +40,7 @@ export function MenuInner() {
         menuTrigger='click'
       >
         <MegaMenu />
-      </MenuInnerWithSub>
+      </MenuInnerWithSub> */}
     </>
   )
 }

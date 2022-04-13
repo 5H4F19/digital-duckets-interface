@@ -9,7 +9,6 @@ import {
   TablesWidget7,
   TablesWidget8,
   TablesWidget9,
-  TrendingCollectionsTable,
   TablesWidget11,
   TablesWidget12,
   TablesWidget13,
@@ -84,7 +83,6 @@ const Tables: FC = () => {
 
       <TablesWidget9 className='mb-5 mb-xl-8' />
 
-      <TrendingCollectionsTable className='mb-5 mb-xl-8' />
 
       <TablesWidget11 className='mb-5 mb-xl-8' />
 
